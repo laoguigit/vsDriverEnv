@@ -14,7 +14,7 @@ extern "C"
 
 #pragma PAGECODE
 VOID DDK_Unload(IN PDRIVER_OBJECT o){
-	KdPrint(("卸载成功"));
+	DbgPrint(("卸载成功"));
 }
 
 
@@ -24,7 +24,7 @@ VOID DDK_Unload(IN PDRIVER_OBJECT o){
 extern "C" 
 #endif
 NTSTATUS DriverEntry(PDRIVER_OBJECT p, PUNICODE_STRING s){
-	KdPrint(("第一个驱动程序"));
+	DbgPrint(("第一个驱动程序"));
 	p->DriverUnload = DDK_Unload;
 	return 0;
 
