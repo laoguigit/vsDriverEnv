@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myddk", "myddk\myddk.vcxproj", "{0CAD886D-3ED0-4EB8-98FC-A336B605E504}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		check|Win32 = check|Win32
+		Debug|Win32 = Debug|Win32
+		free|Win32 = free|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CAD886D-3ED0-4EB8-98FC-A336B605E504}.check|Win32.ActiveCfg = check|Win32
+		{0CAD886D-3ED0-4EB8-98FC-A336B605E504}.check|Win32.Build.0 = check|Win32
+		{0CAD886D-3ED0-4EB8-98FC-A336B605E504}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CAD886D-3ED0-4EB8-98FC-A336B605E504}.Debug|Win32.Build.0 = Debug|Win32
+		{0CAD886D-3ED0-4EB8-98FC-A336B605E504}.free|Win32.ActiveCfg = free|Win32
+		{0CAD886D-3ED0-4EB8-98FC-A336B605E504}.free|Win32.Build.0 = free|Win32
+		{0CAD886D-3ED0-4EB8-98FC-A336B605E504}.Release|Win32.ActiveCfg = Release|Win32
+		{0CAD886D-3ED0-4EB8-98FC-A336B605E504}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
