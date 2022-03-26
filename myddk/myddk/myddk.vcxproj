@@ -192,6 +192,16 @@
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="createDevObj.h" />
+    <ClInclude Include="dispatch.h" />
+    <ClInclude Include="hookSSDT.h" />
+    <ClInclude Include="modifyMem.h" />
+    <ClInclude Include="restoreSSDT.h" />
+    <ClInclude Include="serviceDescriptorTable.h" />
+    <ClInclude Include="testList.h" />
+    <ClInclude Include="testMem.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -19,4 +19,30 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="restoreSSDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="createDevObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hookSSDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="serviceDescriptorTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modifyMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
