@@ -52,6 +52,7 @@ NTSTATUS  ioContro(struct _IRP *Irp){
 	default:
 		break;
 	}
+	return STATUS_SUCCESS;
 }
 
 NTSTATUS

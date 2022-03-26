@@ -38,7 +38,7 @@ extern "C" NTSTATUS __stdcall MyNtOpenProcess(
 
 #include "modifyMem.h"
 
-#pragma PACECODE
+#pragma PAGECODE
 VOID hookSSDt(VOID* pid){
 	if (_ssdtHookFlag){
 		return;

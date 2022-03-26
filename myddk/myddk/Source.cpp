@@ -20,6 +20,7 @@ UNICODE_STRING symble;
 #include "testMem.h"
 #include "dispatch.h"
 #include "createDevObj.h"
+#include "fileIO.h"
 
 VOID DDK_Unload(IN PDRIVER_OBJECT pDriv){
 	if (_bHook){
@@ -52,6 +53,9 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT p, PUNICODE_STRING s){
 	p->MajorFunction[IRP_MJ_DEVICE_CONTROL] = ddk_DispatchRoutine;
 
 	testCreateDev(p);
+	testCreateFile();
+	//testAttribute();
+	testReadFile();
 	//restoreSSDT();
 	//memtest();
 	//listTest();

@@ -70,7 +70,7 @@ void restoreSSDT(){
 
 		//还原原地址
 		JMPCODE newCode;
-		newCode.E9 = 0xE9;
+		newCode.E9 = (char)0xE9;
 		newCode.JMPADDR = curAddr - oriAddr - 5; //跳转的相对地址
 
 		modifyMem(_pCurCode, &newCode, sizeof(newCode));

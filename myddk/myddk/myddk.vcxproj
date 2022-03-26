@@ -195,6 +195,7 @@
   <ItemGroup>
     <ClInclude Include="createDevObj.h" />
     <ClInclude Include="dispatch.h" />
+    <ClInclude Include="fileIO.h" />
     <ClInclude Include="hookSSDT.h" />
     <ClInclude Include="modifyMem.h" />
     <ClInclude Include="restoreSSDT.h" />
